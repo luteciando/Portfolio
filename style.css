@@ -113,6 +113,24 @@ h1, h2 {
   text-decoration: underline;
 }
 
+.icones-contato {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.icones-contato a {
+  font-size: 2em;
+  color: #0d6efd;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icones-contato a:hover {
+  color: #084298;
+  transform: scale(1.2);
+}
+
 footer {
   text-align: center;
   padding: 15px;
